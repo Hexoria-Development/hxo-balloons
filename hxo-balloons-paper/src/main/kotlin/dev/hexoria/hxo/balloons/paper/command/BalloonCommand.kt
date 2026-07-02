@@ -1,10 +1,13 @@
 @file:Suppress("DEPRECATION")
 
-package dev.hiorcraft.hxo.Balloons
+package dev.hexoria.hxo.balloons.paper.command
 
-import dev.hiorcraft.hxo.Balloons.balloons.BalloonItems
-import dev.hiorcraft.hxo.Balloons.balloons.BalloonStorage
-import dev.hiorcraft.hxo.Balloons.balloons.SummonBalloons
+import dev.hexoria.hxo.balloons.paper.BalloonItems
+import dev.hexoria.hxo.balloons.paper.BalloonStorage
+import dev.hexoria.hxo.balloons.paper.PaperMain
+import dev.hexoria.hxo.balloons.paper.SummonBalloons
+import dev.hexoria.hxo.balloons.paper.gui.Menu
+import dev.hexoria.hxo.balloons.paper.util.sendKosmetika
 import dev.jorel.commandapi.kotlindsl.commandTree
 import dev.jorel.commandapi.kotlindsl.literalArgument
 import dev.jorel.commandapi.kotlindsl.playerExecutor

@@ -1,12 +1,7 @@
-package dev.hiorcraft.hxo.Balloons.balloons
+package dev.hexoria.hxo.balloons.paper
 
 import org.bukkit.Material
 
-/**
- * Die 16 Vanilla-Farben. Jede Farbe entspricht einer Nexo-Variante `<basis>_<id>`
- * (z.B. `balloon_red`). [wool] ist das Anzeige-Item im Farbwahl-GUI, [displayName]
- * der bereits eingefärbte Anzeige-Name.
- */
 enum class BalloonColor(val id: String, val displayName: String, val wool: Material) {
     WHITE("white", "§fWeiß", Material.WHITE_WOOL),
     ORANGE("orange", "§6Orange", Material.ORANGE_WOOL),
@@ -25,6 +20,5 @@ enum class BalloonColor(val id: String, val displayName: String, val wool: Mater
     RED("red", "§cRot", Material.RED_WOOL),
     BLACK("black", "§0Schwarz", Material.BLACK_WOOL);
 
-    /** Die Nexo-Varianten-ID dieser Farbe für einen Basis-Ballon. */
     fun variantId(baseId: String): String = "${baseId}_$id"
 }

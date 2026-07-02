@@ -1,6 +1,6 @@
-package dev.hiorcraft.hxo.Balloons.Hook
+package dev.hexoria.hxo.balloons.paper.hook
 
-import dev.hiorcraft.hxo.Balloons.PaperMain
+import dev.hexoria.hxo.balloons.paper.PaperMain
 import org.bukkit.inventory.ItemStack
 
 /**

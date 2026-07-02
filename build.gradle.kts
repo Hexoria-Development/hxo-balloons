@@ -1,23 +1,14 @@
-import dev.slne.surf.api.gradle.util.registerSoft
-
-plugins {
-    id("dev.slne.surf.api.gradle.paper-plugin")
+buildscript {
+    repositories {
+        gradlePluginPortal()
+        maven("https://reposilite.slne.dev/releases")
+    }
+    dependencies {
+        classpath("dev.slne.surf.api:surf-api-gradle-plugin:+")
+    }
 }
 
-version = findProperty("version") as String
-group = "de.hiorcraft.nex"
-
-surfPaperPluginApi {
-    mainClass("dev.hiorcraft.hxo.Balloons.PaperMain")
-    generateLibraryLoader(false)
-
-    authors.add("HiorCraft")
-
-    // Nexo läuft als eigenes Plugin mit isoliertem Classloader. Ohne diese
-    // Abhängigkeit sieht hxo-balloons die Klasse com.nexomc.nexo.api.NexoItems
-    // nicht (Class.forName -> ClassNotFoundException, nexoPresent=false).
-    // Soft = required:false, damit das Plugin auch ohne Nexo startet.
-    serverDependencies {
-        registerSoft("Nexo")
-    }
+allprojects {
+    group = "dev.hexoria.hxo.balloons"
+    version = findProperty("version") as String
 }

@@ -1,3 +1,7 @@
+include("hxo-balloons-api")
+include("hxo-balloons-paper")
+
+
 pluginManagement {
     repositories {
         gradlePluginPortal()

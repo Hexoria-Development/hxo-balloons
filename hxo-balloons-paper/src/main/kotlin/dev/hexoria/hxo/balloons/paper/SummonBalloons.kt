@@ -1,7 +1,6 @@
-package dev.hiorcraft.hxo.Balloons.balloons
+package dev.hexoria.hxo.balloons.paper
 
-import dev.hiorcraft.hxo.Balloons.Hook.NexoSupport
-import dev.hiorcraft.hxo.Balloons.PaperMain
+import dev.hexoria.hxo.balloons.paper.hook.NexoSupport
 import org.bukkit.Material
 import org.bukkit.Particle
 import org.bukkit.configuration.file.YamlConfiguration

@@ -1,4 +1,4 @@
-package dev.hiorcraft.hxo.Balloons
+package dev.hexoria.hxo.balloons.paper.util
 
 import dev.slne.surf.api.core.messages.adventure.sendText
 import org.bukkit.entity.Player

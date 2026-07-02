@@ -1,13 +1,15 @@
 @file:Suppress("DEPRECATION")
 
-package dev.hiorcraft.hxo.Balloons
+package dev.hexoria.hxo.balloons.paper.gui
 
-import dev.hiorcraft.hxo.Balloons.Hook.NexoSupport
-import dev.hiorcraft.hxo.Balloons.balloons.BalloonColor
-import dev.hiorcraft.hxo.Balloons.balloons.BalloonItems
-import dev.hiorcraft.hxo.Balloons.balloons.BalloonStorage
-import dev.hiorcraft.hxo.Balloons.balloons.SummonBalloons
-import dev.hiorcraft.hxo.Balloons.util.InventoryItems
+import dev.hexoria.hxo.balloons.paper.hook.NexoSupport
+import dev.hexoria.hxo.balloons.paper.BalloonColor
+import dev.hexoria.hxo.balloons.paper.BalloonItems
+import dev.hexoria.hxo.balloons.paper.BalloonStorage
+import dev.hexoria.hxo.balloons.paper.PaperMain
+import dev.hexoria.hxo.balloons.paper.SummonBalloons
+import dev.hexoria.hxo.balloons.paper.util.InventoryItems
+import dev.hexoria.hxo.balloons.paper.util.sendKosmetika
 import org.bukkit.Bukkit
 import org.bukkit.Material
 import org.bukkit.configuration.file.YamlConfiguration

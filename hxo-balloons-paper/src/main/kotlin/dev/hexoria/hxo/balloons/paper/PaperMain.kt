@@ -1,7 +1,8 @@
-package dev.hiorcraft.hxo.Balloons
+package dev.hexoria.hxo.balloons.paper
 
-import dev.hiorcraft.hxo.Balloons.balloons.SummonBalloons
-import dev.hiorcraft.hxo.Balloons.listener.BalloonListener
+import dev.hexoria.hxo.balloons.paper.listener.BalloonListener
+import dev.hexoria.hxo.balloons.paper.gui.Menu
+import dev.hexoria.hxo.balloons.paper.command.balloonsCommand
 import org.bukkit.Bukkit
 import org.bukkit.entity.ArmorStand
 import org.bukkit.entity.Parrot

@@ -1,9 +1,9 @@
-package dev.hiorcraft.hxo.Balloons.listener
+package dev.hexoria.hxo.balloons.paper.listener
 
-import dev.hiorcraft.hxo.Balloons.Hook.NexoSupport
-import dev.hiorcraft.hxo.Balloons.PaperMain
-import dev.hiorcraft.hxo.Balloons.balloons.BalloonStorage
-import dev.hiorcraft.hxo.Balloons.balloons.SummonBalloons
+import dev.hexoria.hxo.balloons.paper.hook.NexoSupport
+import dev.hexoria.hxo.balloons.paper.PaperMain
+import dev.hexoria.hxo.balloons.paper.BalloonStorage
+import dev.hexoria.hxo.balloons.paper.SummonBalloons
 import org.bukkit.Bukkit
 import org.bukkit.Material
 import org.bukkit.configuration.file.YamlConfiguration
@@ -29,7 +29,6 @@ import org.bukkit.event.player.PlayerUnleashEntityEvent
 import org.bukkit.inventory.EquipmentSlot
 import org.bukkit.scheduler.BukkitRunnable
 import java.io.File
-import kotlin.collections.get
 
 class BalloonListener : Listener {
 

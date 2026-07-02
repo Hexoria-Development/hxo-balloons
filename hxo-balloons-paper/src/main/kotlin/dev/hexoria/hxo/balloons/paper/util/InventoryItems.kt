@@ -1,8 +1,8 @@
 @file:Suppress("DEPRECATION")
 
-package dev.hiorcraft.hxo.Balloons.util
+package dev.hexoria.hxo.balloons.paper.util
 
-import dev.hiorcraft.hxo.Balloons.PaperMain
+import dev.hexoria.hxo.balloons.paper.PaperMain
 import org.bukkit.Material
 import org.bukkit.inventory.Inventory
 import org.bukkit.inventory.ItemStack

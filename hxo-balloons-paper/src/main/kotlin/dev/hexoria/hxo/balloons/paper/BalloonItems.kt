@@ -1,17 +1,9 @@
-package dev.hiorcraft.hxo.Balloons.balloons
+package dev.hexoria.hxo.balloons.paper
 
 import org.bukkit.Material
 import org.bukkit.configuration.ConfigurationSection
 import org.bukkit.inventory.ItemStack
 
-/**
- * Liest und schreibt den Anzeige-[org.bukkit.inventory.ItemStack] eines Ballons unter `Balloons.<id>` in der config.yml.
- *
- * Ballons werden als vollständig serialisierter ItemStack unter `.serialized` gespeichert, was alle
- * Data-Components erhält – inklusive der Spielerkopf-Textur sowie der `item_model`-Component von
- * Custom-Item-Plugins wie Nexo oder Oraxen. Das ältere Format `.item` + `.custommodeldata` wird zur
- * Abwärtskompatibilität weiterhin gelesen.
- */
 object BalloonItems {
 
     fun get(config: ConfigurationSection, balloon: String): ItemStack {
